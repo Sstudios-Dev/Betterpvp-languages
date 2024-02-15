@@ -1,0 +1,66 @@
+# ============================================================
+# |                    Configuración de BetterPvP           |
+# ============================================================
+
+# Bienvenido al archivo de configuración de BetterPvP.
+# No olvides apoyar al creador dejando una reseña en
+# Spigot para que podamos seguir manteniendo el complemento.
+# Spigot: https://www.spigotmc.org/members/sstudios-team.1957112/
+
+# Discord: https://discord.gg/eRxezh3hY8
+# Sitio web: https://sstudiosdev.github.io/
+
+# ============================================================
+# |                        General                           |
+# ============================================================
+
+# Módulo General: Este módulo contiene configuraciones esenciales del complemento.
+# Por ejemplo, prefijo y otras configuraciones básicas.
+
+prefix: "&8[&3BetterPvP&8]"
+
+# ============================================================
+# |                        Mensajes                          |
+# ============================================================
+
+# Módulo de Mensajes: Aquí puedes traducir todos los mensajes del complemento.
+
+no-permission: "&cLo siento, pero no tienes permiso para ejecutar este comando, %player_name%."
+kill-reward: "&a¡Has recibido %amount% por matar a un jugador!"
+pvptoggle: "&a¡PvP está ahora %status%!"
+
+# ============================================================
+# |                        AntiKillAbuse                     |
+# ============================================================
+
+# Módulo AntiKills: En este módulo, puedes evitar que los jugadores abusen
+# matando a la misma persona varias veces.
+
+anti-kill-abuse:
+  enabled: true
+  max-kill: 5
+  time-limit: 300
+
+  command-sanction:
+    - 'kick %player_name% &c¡No se permite el abuso de muerte!'
+
+# ============================================================
+# |                        Player Kills                      |
+# ============================================================
+
+# Módulo Player Kills: En este módulo, puedes configurar
+# qué sucede cuando un jugador mata a otro jugador.
+
+player-kills:
+  enabled: true
+  money-reward: 10.0
+
+# ============================================================
+# |                        Nopvp system                     |
+# ============================================================
+
+# Este módulo contiene toda la configuración del comando /nopvp <on/off>.
+# Este es uno de los módulos principales del complemento.
+
+# Fin de Config.yml
+# Gracias pichema ❤

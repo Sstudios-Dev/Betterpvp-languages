@@ -1,0 +1,66 @@
+# ============================================================
+# |                    Configuració de BetterPvP            |
+# ============================================================
+
+# Benvingut al fitxer de configuració de BetterPvP.
+# No oblidi donar suport al creador deixant una opinió a
+# Spigot perquè puguem continuar mantenint el complement.
+# Spigot: https://www.spigotmc.org/members/sstudios-team.1957112/
+
+# Discord: https://discord.gg/eRxezh3hY8
+# Lloc web: https://sstudiosdev.github.io/
+
+# ============================================================
+# |                        General                           |
+# ============================================================
+
+# Mòdul General: Aquest mòdul conté configuracions essencials del complement.
+# Per exemple, prefix i altres configuracions bàsiques.
+
+prefix: "&8[&3BetterPvP&8]"
+
+# ============================================================
+# |                        Missatges                         |
+# ============================================================
+
+# Mòdul Missatges: Aquí podeu traduir tots els missatges del complement.
+
+no-permission: "&cHo sentim, però no tens permís per executar aquesta comanda, %player_name%."
+kill-reward: "&aHas rebut %amount% per matar un jugador!"
+pvptoggle: "&aPvP és ara %status%!"
+
+# ============================================================
+# |                        AntiKillAbuse                     |
+# ============================================================
+
+# Mòdul AntiKills: En aquest mòdul, podeu evitar que els jugadors abusin
+# matant la mateixa persona diverses vegades.
+
+anti-kill-abuse:
+  enabled: true
+  max-kill: 5
+  time-limit: 300
+
+  command-sanction:
+    - 'kick %player_name% &cNo està permès abusar de la mort!'
+
+# ============================================================
+# |                        Player Kills                      |
+# ============================================================
+
+# Mòdul Player Kills: En aquest mòdul, podeu configurar
+# què passa quan un jugador mata un altre jugador.
+
+player-kills:
+  enabled: true
+  money-reward: 10.0
+
+# ============================================================
+# |                        Nopvp system                     |
+# ============================================================
+
+# aquest mòdul conté tota la configuració de la comanda /nopvp <on/off>.
+# aquest és un dels mòduls principals dels plugins.
+
+# Fi de Config.yml
+# Gràcies pichema ❤
